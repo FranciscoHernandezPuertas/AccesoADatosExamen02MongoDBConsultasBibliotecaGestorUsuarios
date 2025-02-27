@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Pedidos</title>
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Sistema de Gestión de Pedidos</h1>
+        
+        <!-- Mensajes de estado -->
+        <% if (typeof mensaje !== 'undefined') { %>
+            <div class="alert alert-info alert-dismissible">
+                <%= mensaje %>
+                <button type="button" class="btn-close">×</button>
+            </div>
+        <% } %>
+
+        <!-- GESTIÓN DE PRODUCTOS -->
+        <div class="section">
+            <h2>Gestión de Productos</h2>
+            
+            <!-- Formulario para añadir/editar productos -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 id="productoFormTitle">Añadir Producto</h3>
+                </div>
+                <div class="card-body">
+                    <form id="productoForm">
+                        <input type="hidden" id="productoId">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion" class="form-label">Descripción:</label>
+                            <textarea class="form-control" id="descripcion"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="precio" class="form-label">Precio:</label>
+                            <input type="number" class="form-control" id="precio" step="0.01" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="stock" class="form-label">Stock:</label>
+                            <input type="number" class="form-control" id="stock" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <button type="button" id="cancelarProducto" class="btn btn-secondary">Cancelar</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Lista de productos -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>Productos Disponibles</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Descripción</th>
+                                    <th>Precio</th>
+                                    <th>Stock</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="productosTableBody">
+                                <!-- Los productos se cargarán aquí dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- GESTIÓN DE USUARIOS -->
+        <div class="section">
+            <h2>Gestión de Usuarios</h2>
+            
+            <!-- Formulario para añadir/editar usuarios -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 id="usuarioFormTitle">Registrar Usuario</h3>
+                </div>
+                <div class="card-body">
+                    <form id="usuarioForm">
+                        <input type="hidden" id="usuarioId">
+                        <div class="mb-3">
+                            <label for="nombreUsuario" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombreUsuario" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="direccionEnvio" class="form-label">Dirección de envío:</label>
+                            <textarea class="form-control" id="direccionEnvio"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Guardar Usuario</button>
+                        <button type="button" id="cancelarUsuario" class="btn btn-secondary">Cancelar</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Lista de usuarios -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>Usuarios Registrados</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Email</th>
+                                    <th>Dirección de Envío</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="usuariosTableBody">
+                                <!-- Los usuarios se cargarán aquí dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importar scripts -->
+    <script src="/js/productos.js"></script>
+    <script src="/js/usuarios.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

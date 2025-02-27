@@ -1,0 +1,352 @@
+[
+    {
+        "_id": "aa5acaa4-093b-4d9d-801a-a2d2ebdc7f98",
+        "titulo": "Duna",
+        "autor": "Frank Herbert",
+        "categoria": "Ciencia Ficción",
+        "disponible": true
+    },
+    {
+        "_id": "81dc5c46-3aaa-4205-a443-9df6c828e48e",
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "categoria": "Fantasía",
+        "disponible": false
+    },
+    {
+        "_id": "3d9b21dc-7f48-4554-ae87-450359c82dca",
+        "titulo": "Fundación",
+        "autor": "Isaac Asimov",
+        "categoria": "Ucronía",
+        "disponible": true
+    },
+    {
+        "_id": "58f22f02-f083-42ff-82e8-e249ae0d56b3",
+        "titulo": "Neuromante",
+        "autor": "William Gibson",
+        "categoria": "Distopía",
+        "disponible": false
+    },
+    {
+        "_id": "48d33c84-2530-43b3-a02d-64e108805f2f",
+        "titulo": "El juego de Ender",
+        "autor": "Orson Scott Card",
+        "categoria": "Cyberpunk",
+        "disponible": true
+    },
+    {
+        "_id": "9d21eccb-7851-4842-9327-313b02fdb022",
+        "titulo": "Un mundo feliz",
+        "autor": "Aldous Huxley",
+        "categoria": "Ciencia Ficción",
+        "disponible": false
+    },
+    {
+        "_id": "2ff40a8b-bfac-469e-a54d-37b7ace167a9",
+        "titulo": "Solaris",
+        "autor": "Stanisław Lem",
+        "categoria": "Fantasía",
+        "disponible": true
+    },
+    {
+        "_id": "9c82d2e2-5031-4b79-b502-74a5c742a5f7",
+        "titulo": "Snow Crash",
+        "autor": "Neal Stephenson",
+        "categoria": "Ucronía",
+        "disponible": false
+    },
+    {
+        "_id": "f366ec68-8fa8-4ce5-961a-43a678c25af3",
+        "titulo": "La mano izquierda de la oscuridad",
+        "autor": "Ursula K. Le Guin",
+        "categoria": "Distopía",
+        "disponible": true
+    },
+    {
+        "_id": "e8c8529f-5181-499e-94dc-055e63a28f3f",
+        "titulo": "Hyperion",
+        "autor": "Dan Simmons",
+        "categoria": "Cyberpunk",
+        "disponible": false
+    },
+    {
+        "_id": "386ac6ce-90a6-4140-8aa4-6339e54b78f7",
+        "titulo": "El problema de los tres cuerpos",
+        "autor": "Cixin Liu",
+        "categoria": "Ciencia Ficción",
+        "disponible": true
+    },
+    {
+        "_id": "e989c009-84e2-499e-b19b-86eec4b28f6c",
+        "titulo": "Cita con Rama",
+        "autor": "Arthur C. Clarke",
+        "categoria": "Fantasía",
+        "disponible": false
+    },
+    {
+        "_id": "308987b2-9c63-4648-a4cd-3c5bffb012d5",
+        "titulo": "Los propios dioses",
+        "autor": "Robert Heinlein",
+        "categoria": "Ucronía",
+        "disponible": true
+    },
+    {
+        "_id": "70049e57-4165-4dce-aa7b-cd4af4beadd6",
+        "titulo": "La guerra interminable",
+        "autor": "Joe Haldeman",
+        "categoria": "Distopía",
+        "disponible": false
+    },
+    {
+        "_id": "eecb9f84-9306-46e1-9fee-5c4fa1d65a5e",
+        "titulo": "La máquina del tiempo",
+        "autor": "H.G. Wells",
+        "categoria": "Cyberpunk",
+        "disponible": true
+    },
+    {
+        "_id": "9150145d-9310-43c0-8a56-8a0477f99337",
+        "titulo": "La torre oscura",
+        "autor": "Stephen King",
+        "categoria": "Ciencia Ficción",
+        "disponible": false
+    },
+    {
+        "_id": "8c715b92-19f8-45d2-acfa-f85c65f03e25",
+        "titulo": "El hombre en el castillo",
+        "autor": "Philip K. Dick",
+        "categoria": "Fantasía",
+        "disponible": true
+    },
+    {
+        "_id": "8668b455-d77e-48ab-b243-e57a9e9bb8e4",
+        "titulo": "Soy leyenda",
+        "autor": "Richard Matheson",
+        "categoria": "Ucronía",
+        "disponible": false
+    },
+    {
+        "_id": "12b30458-10da-44d0-a65c-4f181ed9a7c6",
+        "titulo": "La estrella de Pandora",
+        "autor": "Peter F. Hamilton",
+        "categoria": "Distopía",
+        "disponible": true
+    },
+    {
+        "_id": "39d211c1-ada5-4e13-8ce3-fe87834feb39",
+        "titulo": "El vacío de los sueños",
+        "autor": "Alastair Reynolds",
+        "categoria": "Cyberpunk",
+        "disponible": false
+    },
+    {
+        "_id": "ff3b7fa5-29d9-4614-baf0-b5bcd38dbf48",
+        "titulo": "Ready Player One",
+        "autor": "Ernest Cline",
+        "categoria": "Ciencia Ficción",
+        "disponible": true
+    },
+    {
+        "_id": "c2b5711b-55b2-4126-b02a-0bb35469e289",
+        "titulo": "Anatema",
+        "autor": "Neal Stephenson",
+        "categoria": "Fantasía",
+        "disponible": false
+    },
+    {
+        "_id": "f28187cb-42f7-424f-bb32-b6ab5787380d",
+        "titulo": "Spin",
+        "autor": "Robert Charles Wilson",
+        "categoria": "Ucronía",
+        "disponible": true
+    },
+    {
+        "_id": "b07a9eaf-f421-42e4-a504-711e5d763ead",
+        "titulo": "Criptonomicón",
+        "autor": "Neal Stephenson",
+        "categoria": "Distopía",
+        "disponible": false
+    },
+    {
+        "_id": "62cf505c-9440-4802-bb1e-4714de04413a",
+        "titulo": "Pórtico",
+        "autor": "Frederik Pohl",
+        "categoria": "Cyberpunk",
+        "disponible": true
+    },
+    {
+        "_id": "0c5e9c83-720a-495c-9cf3-966c086e9584",
+        "titulo": "El fin de la infancia",
+        "autor": "Arthur C. Clarke",
+        "categoria": "Ciencia Ficción",
+        "disponible": false
+    },
+    {
+        "_id": "5ebf4124-ff3d-4ecf-acfd-3ea35ebe8edf",
+        "titulo": "La luna es una cruel amante",
+        "autor": "Robert Heinlein",
+        "categoria": "Fantasía",
+        "disponible": true
+    },
+    {
+        "_id": "fe53cdcb-b0b2-46b8-92d9-b577df99c380",
+        "titulo": "Bóvedas de acero",
+        "autor": "Isaac Asimov",
+        "categoria": "Ucronía",
+        "disponible": false
+    },
+    {
+        "_id": "9568ca79-bd57-416a-a19e-360755542fe3",
+        "titulo": "El juego de los Vor",
+        "autor": "Lois McMaster Bujold",
+        "categoria": "Distopía",
+        "disponible": true
+    },
+    {
+        "_id": "7c229042-573c-46e3-af53-01af56728883",
+        "titulo": "Cántico por Leibowitz",
+        "autor": "Walter M. Miller Jr.",
+        "categoria": "Cyberpunk",
+        "disponible": false
+    },
+    {
+        "_id": "6b8217cb-a4e2-4858-b4e4-f06d244cb68b",
+        "titulo": "La radio de Darwin",
+        "autor": "Greg Bear",
+        "categoria": "Ciencia Ficción",
+        "disponible": true
+    },
+    {
+        "_id": "641a624a-2531-404e-9b78-6308d6f1e78b",
+        "titulo": "Las brigadas fantasma",
+        "autor": "John Scalzi",
+        "categoria": "Fantasía",
+        "disponible": false
+    },
+    {
+        "_id": "dc2e17e6-d040-45c7-96f1-1c95434a6cb5",
+        "titulo": "Las estrellas mi destino",
+        "autor": "Alfred Bester",
+        "categoria": "Ucronía",
+        "disponible": true
+    },
+    {
+        "_id": "5f7907d7-06c8-41bd-9f70-2ce1f31fe30c",
+        "titulo": "Tiempo de Marte",
+        "autor": "Philip K. Dick",
+        "categoria": "Distopía",
+        "disponible": false
+    },
+    {
+        "_id": "e512cec7-70e3-4bf8-8837-e799d2e3427e",
+        "titulo": "Los viajes de Tuf",
+        "autor": "George R.R. Martin",
+        "categoria": "Cyberpunk",
+        "disponible": true
+    },
+    {
+        "_id": "3fcb0f7f-2e6c-43df-89c2-195b45e1ca98",
+        "titulo": "El ciclo de la puerta de la muerte",
+        "autor": "Margaret Weis",
+        "categoria": "Ciencia Ficción",
+        "disponible": false
+    },
+    {
+        "_id": "ec857962-3376-422b-bc82-4433740af90d",
+        "titulo": "Sueñan los androides con ovejas eléctricas?",
+        "autor": "Philip K. Dick",
+        "categoria": "Fantasía",
+        "disponible": true
+    },
+    {
+        "_id": "22150c2b-486f-4067-a2bd-4e981fa06e44",
+        "titulo": "La peste escarlata",
+        "autor": "Jack London",
+        "categoria": "Ucronía",
+        "disponible": false
+    },
+    {
+        "_id": "733f201c-4eb8-40ca-b4ac-e78138ab4071",
+        "titulo": "Mercaderes del espacio",
+        "autor": "Frederik Pohl",
+        "categoria": "Distopía",
+        "disponible": true
+    },
+    {
+        "_id": "712121f8-816f-4d89-880a-cf63cd13a645",
+        "titulo": "Los tejedores de cabellos",
+        "autor": "Andreas Eschbach",
+        "categoria": "Cyberpunk",
+        "disponible": false
+    },
+    {
+        "_id": "0a414ce7-9c19-4225-a1ff-77319c5fbdf9",
+        "titulo": "Hacedor de estrellas",
+        "autor": "Olaf Stapledon",
+        "categoria": "Ciencia Ficción",
+        "disponible": true
+    },
+    {
+        "_id": "95369bbf-7c85-4fef-847c-e4130b8ebce1",
+        "titulo": "La nave estelar",
+        "autor": "Brian Aldiss",
+        "categoria": "Fantasía",
+        "disponible": false
+    },
+    {
+        "_id": "de451752-c61b-4f37-9cab-a03cc966bdb8",
+        "titulo": "La guerra de las salamandras",
+        "autor": "Karel Čapek",
+        "categoria": "Ucronía",
+        "disponible": true
+    },
+    {
+        "_id": "edad1037-2380-4262-ae60-60855655e63d",
+        "titulo": "El gran tiempo",
+        "autor": "Fritz Leiber",
+        "categoria": "Distopía",
+        "disponible": false
+    },
+    {
+        "_id": "4a315db6-7143-414d-adbe-f7e6f0b13c47",
+        "titulo": "Trilogía de los trífidos",
+        "autor": "John Wyndham",
+        "categoria": "Cyberpunk",
+        "disponible": true
+    },
+    {
+        "_id": "22ef6f29-cadd-456e-96e0-976270ab14a9",
+        "titulo": "Voces de un mundo distante",
+        "autor": "Greg Egan",
+        "categoria": "Ciencia Ficción",
+        "disponible": false
+    },
+    {
+        "_id": "1b8a1bc3-4aeb-4b00-ae7b-2b6b3dd57236",
+        "titulo": "Tau Zero",
+        "autor": "Poul Anderson",
+        "categoria": "Fantasía",
+        "disponible": true
+    },
+    {
+        "_id": "107a027f-767a-48c0-b844-be33d9b5bfc1",
+        "titulo": "Los desposeídos",
+        "autor": "Ursula K. Le Guin",
+        "categoria": "Ucronía",
+        "disponible": false
+    },
+    {
+        "_id": "45e1104c-852c-46d7-ae49-f3e8d9dc625f",
+        "titulo": "La rueda celeste",
+        "autor": "Ursula K. Le Guin",
+        "categoria": "Distopía",
+        "disponible": true
+    },
+    {
+        "_id": "6971ce30-ac16-499f-99ff-a06e02b9dfe2",
+        "titulo": "La historia de tu vida",
+        "autor": "Ted Chiang",
+        "categoria": "Cyberpunk",
+        "disponible": false
+    }
+]
